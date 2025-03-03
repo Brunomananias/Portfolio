@@ -10,6 +10,7 @@ const Projects: React.FC = () => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
+        id="projetos" 
       >
         Projetos
       </motion.h2>
@@ -47,7 +48,7 @@ const Projects: React.FC = () => {
                 </span>
               ))}
               <div>
-                <button className="px-4 py-1 mt-4 bg-purple-800 text-white font-semibold rounded-lg shadow-md transform transition duration-300 ease-in-out hover:scale-105 hover:bg-gray-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 flex items-center gap-2">
+                <button onClick={() => window.open(project.link, "_blank")} className="px-4 py-1 mt-4 bg-purple-800 text-white font-semibold rounded-lg shadow-md transform transition duration-300 ease-in-out hover:scale-105 hover:bg-gray-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 flex items-center gap-2">
                   <FaGithub /> GITHUB
                 </button>
               </div>

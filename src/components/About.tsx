@@ -1,9 +1,9 @@
-import aboutImg from "../../public/images/about.jpg";
+import aboutImg from "../images/about.jpg";
 import { motion } from "framer-motion";
 
 const About: React.FC = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="sobre-mim" className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl">
         Sobre
         <span className="text-neutral-500"> Mim</span>

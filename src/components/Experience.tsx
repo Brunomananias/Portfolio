@@ -1,7 +1,7 @@
 import { EXPERIENCES } from "../constants";
 import { motion } from 'framer-motion';
 const Experience: React.FC = () => {
-    return <div>
+    return <div id="experiencia">
         <motion.h2 
         whileInView={{opacity: 1, y: 0}}
         initial={{opacity: 0, y: -100}}

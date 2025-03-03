@@ -1,4 +1,4 @@
-import profilePic from "../../public/images/profile.jpeg";
+import profilePic from "../images/profile.jpeg";
 import { motion } from "framer-motion";
 
 const container = (delay: number) => ({

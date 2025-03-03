@@ -4,11 +4,13 @@ import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 import Technoligies from "./components/Technologies";
 
 function App() {
   return (
     <>
+    <ScrollToTopButton/>
       <div
         className="overflow-x-hidden text-neutral-300 antialiased
     selection:bg-cyan-300 selection:text-cyan-900
@@ -24,7 +26,7 @@ function App() {
 
         <div className="container mx-auto px-8">
           <Navbar />
-          <Hero />
+          <Hero/>
           <About />
           <Technoligies />
           <Experience />

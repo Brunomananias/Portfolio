@@ -1,6 +1,6 @@
-import project1 from "../../public/images/gym.jpg";
-import project2 from "../../public/images/minikids.jpg";
-import project3 from "../../public/images/financas.png";
+import project1 from "../images/gym.jpg";
+import project2 from "../images/minikids.jpg";
+import project3 from "../images/financas.png";
 
 export const EXPERIENCES = [
   {
@@ -36,19 +36,22 @@ export const PROJECTS = [
     descricao:
       "Um site simples de uma academia feito utilizando apenas o frontend",
     tecnologias: ["React", "Typescript", "Tailwind"],
+    link: "https://github.com/Brunomananias/gym-website"
   },
   {
     titulo: "Sistema de Gestão Minikids",
     image: project2,
     descricao:
-      "Desenvolvi um sistema de gestão completo para auxiliar no negócio de recreação da minha esposa. Utilizei autenticação JWT para maior segurança no login.",
+      "Desenvolvi um sistema de gestão completo (API E INTERFACE) para auxiliar no negócio de recreação da minha esposa. Utilizei autenticação JWT para maior segurança no login.",
     tecnologias: ["React", "Typescript", "C#", ".NET", "ApiRest"],
+    link: "https://github.com/Brunomananias/minikids_UI"
   },
   {
     titulo: "Sistema de Finanças Pessoais",
     image: project3,
     descricao:
-      "Desenvolvi um sistema de finanças completo para auxiliar nas minhas finanças pessoais",
+      "Desenvolvi um sistema de finanças completo (API E INTERFACE) para auxiliar nas minhas finanças pessoais",
     tecnologias: ["React", "Typescript", "C#", ".NET", "ApiRest"],
+    link: "https://github.com/Brunomananias/Financeiro"
   },
 ];
